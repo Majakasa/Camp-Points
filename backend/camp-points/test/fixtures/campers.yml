@@ -1,0 +1,43 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  first_name: MyString
+  last_name: MyString
+  allsports: 1
+  archery: 1
+  canoeing: 1
+  creative_arts: 1
+  culinary_fun: 1
+  dance: 1
+  eagle_I: 1
+  fencing: 1
+  kayaking: 1
+  performing_arts: 1
+  rock_climbing: 1
+  sup: 1
+  sailing: 1
+  swimming: 1
+  tennis: 1
+  water_ski: 1
+  windsurfing: 1
+
+two:
+  first_name: MyString
+  last_name: MyString
+  allsports: 1
+  archery: 1
+  canoeing: 1
+  creative_arts: 1
+  culinary_fun: 1
+  dance: 1
+  eagle_I: 1
+  fencing: 1
+  kayaking: 1
+  performing_arts: 1
+  rock_climbing: 1
+  sup: 1
+  sailing: 1
+  swimming: 1
+  tennis: 1
+  water_ski: 1
+  windsurfing: 1
