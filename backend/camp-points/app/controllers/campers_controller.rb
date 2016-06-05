@@ -4,7 +4,8 @@ class CampersController < ApplicationController
     render json: Camper.all, status: 200
   end
   def show
-    @camper = Camper.find params[:id] #-> this can be the "name" of your record, or "id"
+    @camper = Camper.find params[:first_name] #-> this can be the "name" of your record, or "id"
+    render json: @camper, status: 200
   end
 
   def create

@@ -2,11 +2,8 @@ import axios from 'axios';
 
 const AjaxHelpers = {
 
-  findMovie: function() {
-    return axios.get('https://api-public.guidebox.com/v1.43/US/rKhuJkXJ8M9fIKSJDUm2eqsz2QiOVR8A/search/movie/title/+'+ movieArray +'/exact')
-  },
-  getMovies: function(movieArray){
-    return axios.get('https://api-public.guidebox.com/v1.43/US/rKhuJkXJ8M9fIKSJDUm2eqsz2QiOVR8A/search/movie/title/+'+ movieArray +'/exact')
+  findCamper: function(name) {
+    return axios.get('http://localhost:3000/campers/' + name);
   },
   listCampers: function(){
     return axios.get('http://localhost:3000/campers');
@@ -14,9 +11,7 @@ const AjaxHelpers = {
   addCamper: function(camper){
     return axios.post('http://localhost:3000/add', camper);
   },
-  findPlaylist: function(author) {
-    return axios.get('http://localhost:3000/movies/' + author.author)
-  },
+
   deleteAuthor: function (author) {
     return axios.delete('http://localhost:3000/movies/' + author.author)
   },

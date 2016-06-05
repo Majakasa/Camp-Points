@@ -15,6 +15,7 @@ const Home = React.createClass({
           <li><Link to={'/about'}>About</Link></li>
           <li><Link to={'/add'}>Add</Link></li>
           <li><Link to={'/list'}>List</Link></li>
+          <li><Link to={'/find'}>Find</Link></li>
 
         </ul>
         {this.props.children}

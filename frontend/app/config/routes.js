@@ -7,6 +7,7 @@ import About from '../components/About';
 
 import ListContainer from '../containers/ListContainer';
 import AddContainer from '../containers/AddContainer';
+import FindContainer from '../containers/FindContainer';
 
 
 
@@ -18,6 +19,7 @@ const routes =(
       <IndexRoute component={Home}/>
       <Route path='about' component={About} />
       <Route path='add' component={AddContainer} />
+      <Route path='find' component={FindContainer} />
       <Route path='list' component={ListContainer} />
     </Route>
   </Router>
