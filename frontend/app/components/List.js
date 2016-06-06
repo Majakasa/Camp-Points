@@ -59,8 +59,8 @@ function List(props){
   });
   return (
     <div>
-      <h2>Recipe by name</h2>
-      <Table striped bordered condensed hover>
+      <h2>Campers</h2>
+      <Table  responsive striped bordered condensed hover>
         <thead>
           <tr>
             <th>#</th>
@@ -79,6 +79,7 @@ function List(props){
             <th>Rock Climbing</th>
             <th>SUP</th>
             <th>Sailing</th>
+            <th>Swimming</th>
             <th>Tennis</th>
             <th>Water Ski</th>
             <th>Windsurfing</th>

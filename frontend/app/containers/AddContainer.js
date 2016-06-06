@@ -153,13 +153,13 @@ const AddContainer = React.createClass({
     })
   },
 
-  render: function(){
+  render: function(buttonsInstance, mountNode){
     return(
       <div className="display">
         <Add onChangeName={this.onChangeName}
           onChangeActivity={this.onChangeActivity}
           onChangePoints={this.onChangePoints}
-          onSubmitRecipe={this.onSubmitRecipe}
+          onSubmitCamper={this.onSubmitCamper}
           camperAddedMsg={this.state.camperAdded} />
       </div>
     )

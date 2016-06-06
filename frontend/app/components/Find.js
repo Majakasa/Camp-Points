@@ -2,16 +2,18 @@
 import React from 'react';
 import { Table } from 'react-bootstrap';
 
+
 function Find(props){
   console.log('hello', props);
 
   return (
     <div>
       <h2>Find</h2>
+
       <input onChange={props.onChangeName} placeholder='Search by name' type='text' />
       <button onClick={props.onSubmitRecipe} type='button' >Search</button>
       <br/><br/>
-      <Table striped bordered condensed hover>
+      <Table responsive striped bordered condensed hover>
         <thead>
           <tr>
             <th>#</th>

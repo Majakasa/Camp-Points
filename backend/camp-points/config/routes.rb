@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   # root 'welcome#index'
   # delete 'campers/:last_name' => 'campers#destroy'
   # Example of regular route:
-    get 'campers/:first_name' => 'campers#show'
+    # get 'campers/:first_name' => 'campers#show'
     # get 'products/:id' => 'catalog#view'
 
   # Example of named route that can be invoked with purchase_url(id: product.id)

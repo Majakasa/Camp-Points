@@ -23,6 +23,6 @@ class CampersController < ApplicationController
   end
 
   def edit
-
+    @camper = camper.find(params[:id])
   end
 end
